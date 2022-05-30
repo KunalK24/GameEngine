@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{df004780-0ac3-4907-872d-fbe37ffe4846}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\EngineGlobals.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Utilities.h" />
+    <ClInclude Include="Core\RenderManager.hpp" />
+    <ClInclude Include="Core\Engine.hpp" />
+    <ClInclude Include="Core\InputManager.hpp" />
+    <ClInclude Include="Core\GameObject.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\RenderManager.cpp" />
+    <ClCompile Include="Core\Utilities.cpp" />
+    <ClCompile Include="Core\EngineGlobals.cpp" />
+    <ClCompile Include="Core\Engine.cpp" />
+    <ClCompile Include="Core\InputManager.cpp" />
+    <ClCompile Include="Core\GameObject.cpp" />
+  </ItemGroup>
+</Project>
